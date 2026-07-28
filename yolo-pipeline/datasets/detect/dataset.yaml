@@ -1,0 +1,11 @@
+# 目标检测数据集配置（示例一：办公室安全隐患检测）
+# path 用相对于本文件的路径即可，Mac/Win 通用
+path: .
+train: images/train
+val: images/val
+
+# 类别名按实际任务修改，编号从 0 开始，标注时的类别编号要与此对应
+names:
+  0: messy_wire      # 电线乱放
+  1: loose_plug      # 插头未插好
+  2: exposed_outlet  # 漏电隐患

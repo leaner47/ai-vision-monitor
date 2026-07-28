@@ -1,0 +1,3 @@
+#!/bin/bash
+# 转交给终端执行，继承终端已有的摄像头/硬盘访问权限
+open -a Terminal "/Volumes/DB_004/AI视觉智能监测模型/yolo-pipeline/quick-start.command"

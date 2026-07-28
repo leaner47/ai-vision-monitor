@@ -1,0 +1,22 @@
+# 体积巨大或可重建的内容不入库（新机器用 一键环境配置 重建）
+yolo-pipeline/venv/
+yolo-pipeline/bin/
+yolo-pipeline/bin-win/
+ollama/
+models/
+installers/
+yolo-pipeline/downloads/
+yolo-pipeline/runs/
+yolo-pipeline/datasets/**
+!yolo-pipeline/datasets/detect/
+!yolo-pipeline/datasets/detect/dataset.yaml
+
+# 运行时与系统垃圾
+__pycache__/
+*.pyc
+*.cache
+.dashboard.pid
+.ollama.pid
+.DS_Store
+._*
+.idea/

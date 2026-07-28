@@ -1,0 +1,4 @@
+#!/bin/bash
+# 转交终端执行配置脚本（继承终端权限）；用相对定位，文件夹拷到哪都能用
+DIR="$(cd "$(dirname "$0")/../../.." && pwd)"
+open -a Terminal "$DIR/yolo-pipeline/setup-env.command"

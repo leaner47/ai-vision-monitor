@@ -1,0 +1,6 @@
+# Mac 和 Windows 通用。安装：pip install -r requirements.txt
+# Windows 有 NVIDIA 显卡时，先按 https://pytorch.org 官网命令装 CUDA 版 torch，再装本文件
+ultralytics>=8.3.0
+onnx>=1.16.0
+onnxruntime>=1.18.0
+flask>=3.0.0
